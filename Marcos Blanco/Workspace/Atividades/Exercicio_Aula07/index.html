@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <title>Sweet and Love</title>
+</head>
+
+<body>
+    <h2>Sweet and Love</h2>
+    <h3>Doces e Salgados</h3>
+    <main>
+            <form method="post" id="fContato" action="mailto:email@email.com.br"
+            oninput="result.value=parseInt(valor_01.value)+parseInt(valor_02.value)">
+            <label for="">Nome</label>
+            <input type="text" required><br>
+            <label for="">Idade</label>
+            <input type="number" required><br>
+            <label for="">E-mail</label>
+            <input type="email" required>
+
+            <label for="">Como foi sua experiência?</label><br>
+            <label for="">Foi bem atendido?</label>
+            <input type="radio" id="Exp" name="Satisfacao1">
+            <label for="">Sim</label>
+            <input type="radio" id="Exp" name="Satisfacao1">
+            <label for="">Não</label><br>
+            <label for="">Seu pedido foi entregue no prazo?</label>
+            <input type="radio" id="Exp" name="Satisfacao2">
+            <label for="">Sim</label>
+            <input type="radio" id="Exp" name="Satisfacao2">
+            <label for="">Não</label><br>
+            <label for="">Indicaria a loja para um amigo?</label>
+            <input type="radio" id="Exp" name="Satisfacao3">
+            <label for="">Sim</label>
+            <input type="radio" id="Exp" name="Satisfacao3">
+            <label for="">Não</label><br>
+
+            <label for="">Quais produtos você mais gostou?</label><br>
+            <input type="checkbox">
+            <label for="">Doces</label><br>
+            <input type="checkbox">
+            <label for="">Ambiente</label><br>
+            <input type="checkbox">
+            <label for="">Entrega do pedido pelo delivery</label><br>
+            <input type="checkbox">
+            <label for="">Atendimento</label><br>
+            <input type="checkbox">
+            <label for="">Valores</label><br>
+
+            <label for="">Digite qual foi o seu pedido</label><br>
+            <textarea name="" id="" cols="40" rows="5"></textarea><br>
+
+            <label for="">Em qual loja você foi atendido?</label><br>
+            <input type="radio" id="loja" name="local">
+            <label for="">Aclimação</label><br>
+            <input type="radio" id="loja" name="local">
+            <label for="">Liberdade</label><br>
+            <input type="radio" id="loja" name="local">
+            <label for="">Tatuapé</label><br>
+            <input type="radio" id="loja" name="local">
+            <label for="">São Joaquim</label><br>
+        <input type="submit" value="Enviar">
+    </form>
+    </main>
+</body>
