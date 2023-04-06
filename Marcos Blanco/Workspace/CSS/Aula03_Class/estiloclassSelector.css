@@ -1,0 +1,10 @@
+.cor_texto {
+    color: #5a1010;
+    /* text-shadow: 2px 2px 3px #000000; */
+    font-size: .75em;
+}
+
+ul {
+    font-weight: bold;
+    color: orange;
+}
