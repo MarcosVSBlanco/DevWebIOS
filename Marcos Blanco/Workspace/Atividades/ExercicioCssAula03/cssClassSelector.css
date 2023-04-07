@@ -1,0 +1,26 @@
+@charset "utf-8";
+body {
+    background-color: #daaeaa;
+    font-family: 'Exo 2', sans-serif;
+}
+footer {
+    background-color: #c6aeaa;
+    color: #f7fdfc;
+}
+p {
+    font-size: 1.5em;
+    font-style: italic;
+}
+h1 {
+    text-shadow: 3px 3px 1px #b2aeaa ;
+}
+.cor_texto {
+    color: #daeee9;
+}
+.cor_back {
+    background-color: #9eaeaa;
+}
+p.cor_textoback {
+    color: black;
+    background-color: #b2aeaa;
+}
