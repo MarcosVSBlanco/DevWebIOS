@@ -10,11 +10,13 @@ h1 {
  line-height: 200%;
  font-family: Georgia, "Times New Roman", serif;
  text-shadow: 3px 3px 5px #cccccc;
+ padding: 1em;/*Conteudo aula 5*/
 }
 h2 {
  background-color: #aeaed4;
  font-family: Georgia, "Times New Roman", serif;
  text-align: center;
+ border-bottom: 2px dashed #191970; /*Conteudo Aula 5*/
 }
 p {
  font-size: .90em;
