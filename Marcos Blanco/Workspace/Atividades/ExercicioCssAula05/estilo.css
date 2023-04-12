@@ -32,3 +32,8 @@ figcaption {
     text-align: center;
     font-family: Papyrus, fantasy;
 }
+footer {
+    background-image: url("backh1.jpg");
+    background-size: 300px;
+    color: aliceblue;
+}
