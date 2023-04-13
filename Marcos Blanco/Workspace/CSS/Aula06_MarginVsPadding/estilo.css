@@ -1,0 +1,7 @@
+#border {
+    border: 2px solid #000;
+    padding: 25px;
+}
+#margin {
+    margin: 0 25px 0 0; /* top, right, button, left */
+}
