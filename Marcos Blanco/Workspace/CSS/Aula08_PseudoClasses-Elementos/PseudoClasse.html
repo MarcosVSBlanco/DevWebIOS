@@ -1,0 +1,46 @@
+<head>
+    <meta charset="UTF-8">
+    <title>Pseudoclasses</title>
+    <!-- <style>
+        p:first-child {
+            color: blue;
+        }
+    </style>
+</head>
+
+<body>
+    <section>
+        <p>Primeiro elemento &lt;p&gt; filho do elemento &lt;section&gt;.</p>
+        <p>Parágrafo qualquer.</p>
+    </section>
+    <footer>
+        <p>Primeiro elemento &lt;p&gt; filho do elemento &lt;footer&gt;.</p>
+        <p>Parágrafo qualquer.</p>
+    </footer>
+</body> -->
+    <style>
+        .mylist li:first-child {
+            background: greenyellow;
+        }
+
+        .mylist li:nth-child(3) {
+            background: grey;
+        }
+
+        .mylist li:last-child {
+            background: yellow;
+        }
+    </style>
+
+<body>
+    <section>
+        <p>Lista não ordenada colorida</p>
+        <ul class="mylist">
+            <li>Primeiro filho</li>
+            <li>Segundo filho</li>
+            <li>Terceiro filho</li>
+            <li>Quarto filho</li>
+            <li>Último filho</li>
+        </ul>
+    </section>
+</body>
