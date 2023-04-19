@@ -1,3 +1,4 @@
+@charset "utf-8";
 * {
     margin: 0;
     padding: 0;
@@ -6,12 +7,16 @@
     font-family: 'Exo 2', sans-serif;
     font-size: 1em;
     font-weight: 700;
-}
 
-article{
-    text-align: center;
-    border: 1px solid #000;
+
 }
-h1 {
-    font-size: 150%;
+section {
+    border: 1px solid #822626;
+    text-align: center;
+}
+section p {
+    color: #000000;
+}
+.corTitulo {
+    color: #ff0000;
 }
