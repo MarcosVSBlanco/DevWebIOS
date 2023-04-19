@@ -10,6 +10,9 @@
 
 
 }
+h1 {
+    font-size: 150%;
+}
 section {
     border: 1px solid #822626;
     text-align: center;
