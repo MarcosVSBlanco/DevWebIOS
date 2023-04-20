@@ -1,0 +1,27 @@
+@charset "utf-8";
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    width: 80%;
+}
+figure {
+    width: 300px 300px;
+}
+img {
+    width:  300px;
+    height: 300px;
+}
+.border {
+    border: 2px solid #000;
+    height: 400px;
+
+}
+.floatE {
+    float: left;
+}
+.floatD {
+    float: right;
+}
+
