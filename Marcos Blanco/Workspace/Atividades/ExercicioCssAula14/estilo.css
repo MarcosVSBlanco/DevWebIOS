@@ -1,0 +1,31 @@
+@charset "utf-8";
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Oswald', sans-serif;
+    background: #77d1fa;
+}
+/* header {
+    font-size: 2rem;
+    text-shadow: 2px 2px 5px #77d1fa;
+    text-align: center;
+    background-image: url("./img/header.jpg");
+    margin: 0 10% 0 10%;
+    padding: 5%;
+    color: #fa77d9;
+} */
+.main-header {
+    background-image: url('./img/header.jpg');
+    background-repeat: space;
+    margin:0 10% ;
+    height: 30vh;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
