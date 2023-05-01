@@ -12,6 +12,36 @@ a {
 a:hover {
     color: rgb(235, 31, 224);
 }
+p:first-child {
+    color: blue;
+}
+
+a:link  {
+    background-color: red;
+    color: white;
+    text-decoration: none;
+}
+
+a:visited {
+    background-color: blueviolet;
+    color: white;
+    text-decoration: none;
+}
+p:last-child {
+    background-color: aquamarine;
+    color: black;
+}
+p::first-letter {
+    color: blueviolet;
+    font-size: 1.6em;
+}
+p::after {
+    content: "Saiba Mais";
+}
+p::first-line {
+    background-color: cornflowerblue;
+
+}
 ul {
     list-style-type: none;
 
