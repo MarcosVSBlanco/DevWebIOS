@@ -1,3 +1,4 @@
+'use strict'
 console.clear()
 
 //operadores aritméticos
@@ -39,10 +40,26 @@ var comparaTudo = variavel3 == variavel4 != variavel3 >= variavel4
                         //true       OU             false
 console.log(comparaTudo)
 
-console.clear
+console.clear()
 
 // X = 2 + 4
 var X = 2
 
 X += 4
 console.log(X)
+
+console.log(typeof 4.5) //numero
+console.log(typeof "Texto") //string
+console.log(typeof true) //booleano
+console.log(typeof 'S') //string
+
+console.clear()
+var indefinida = "String"
+var indefinida = 4
+console.log(indefinida)
+console.clear()
+
+let testeLet = 45
+testeLet = 'teste'
+console.log(testeLet)
+
