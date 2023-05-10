@@ -1,8 +1,8 @@
 let fruta1 = " Banana";
-const fruta2 = "Laranja";
-const fruta3 = "Melancia";
-const fruta4 = "Abacaxi";
-const fruta5 = "Maça";
+let fruta2 = "Laranja";
+let fruta3 = "Melancia";
+let fruta4 = "Abacaxi";
+let fruta5 = "Maça";
 
 fruta1 = fruta1.trim();
 
@@ -22,4 +22,5 @@ console.log(fruta5.substring(0, 3));
 
 fruta1 = fruta1.toLowerCase();
 console.log(fruta1);
-
+fruta2 = fruta2.toLowerCase();
+console.log(fruta2);
