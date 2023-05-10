@@ -24,3 +24,11 @@ fruta1 = fruta1.toLowerCase();
 console.log(fruta1);
 fruta2 = fruta2.toLowerCase();
 console.log(fruta2);
+fruta3 = fruta3.toLowerCase();
+console.log(fruta3);
+fruta4 = fruta4.toLowerCase();
+console.log(fruta4);
+fruta5 = fruta5.toLowerCase();
+console.log(fruta5);
+
+console.log(`As frutas são ${fruta1}, ${fruta2}, ${fruta3}, ${fruta4} e ${fruta5} `);
