@@ -4,26 +4,32 @@
     margin: 0;
 }
 .container {
-    max-width: 900px;
+    max-width: 70%;
     margin: auto;
-    padding: 2rem;
-    background-color: aquamarine;
+    /* padding: 2rem; */
+    background-color: rgb(216, 216, 216);
 }
 .linha{
     display: flex;
     flex-flow: row wrap;
+    margin: 0 auto;
     }
 .coluna-50 {
-    width: 50%;
+    width: 45%;
+    margin: 1rem;
+    padding: 1rem;
+    background-color: rgb(132, 116, 148);
     }
 body{
     background-color: darkgray;
 }
 header {
-    background-color: bisque;
+    background-image: url(./img/download.png);
     text-align: center;
     margin:0 10% ;
-    padding: 2rem;
+    padding: 4rem;
+    color: rgb(0, 0, 0);
+    text-shadow: #ff0000 2px 2px 5px ;
 }
 .btn {
     text-decoration: none;
