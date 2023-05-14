@@ -7,17 +7,61 @@
         integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
     <title>Exercicio Bootstrap Aula 15 CSS</title>
 </head>
+
 <body>
-    <nav>
-
+    <nav class="navbar navbar-expand-lg bg-dark-subtle">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Eletronics</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Produtos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Sobre</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contato</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
     </nav>
-    <header>
-
+    <header class="p-5 bg-danger text-white">
+        <div class="container-fluid py-5 ">
+            <h1>
+                Bem-Vindo a Eletronics Entretenimento
+            </h1>
+            <p>Somos uma Empresa que atua no ramo de entretenimento e cultura</p>
+            <a href="#" class="btn btn-light">Eventos</a>
+        </div>
     </header>
-    <section>
+    <section class="bg-secondary-subtle text-center">
+        <h1>Estamos a 30 anos no mercado</h1>
+        <p>Realizamos eventos de todos os tipos</p>
+        <p>Shows, eventos corporativos, casamentos e festivais</p>
+        <hr>
 
     </section>
-    
+    <section class="bg-danger-subtle">
+        <h1>Cotação</h1>
+        <p>Realizamos o seu evento entre em contato conosco para um orçamento personalizado</p>
+        <div>
+            <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label">Email</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+              </div>
+              <div class="mb-3">
+                <label for="exampleFormControlTextarea1" class="form-label">Qual tipo de evento você deseja realizar?</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+              </div>
+        </div>
+    </section>
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
         crossorigin="anonymous"></script>
