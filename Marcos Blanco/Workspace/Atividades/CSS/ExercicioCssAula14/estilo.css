@@ -4,21 +4,26 @@
     margin: 0;
 }
 .container {
-    max-width: 70%;
+    min-width: 40rem;
+    max-width: 65%;
     margin: auto;
-    /* padding: 2rem; */
     background-color: rgb(216, 216, 216);
+    width: 100vw;
+
+
 }
 .linha{
     display: flex;
     flex-flow: row wrap;
-    margin: 0 auto;
+    margin: auto;
+    justify-content: center;
     }
 .coluna-50 {
-    width: 45%;
+    width: 40%;
     margin: 1rem;
     padding: 1rem;
     background-color: rgb(132, 116, 148);
+
     }
 body{
     background-color: darkgray;
