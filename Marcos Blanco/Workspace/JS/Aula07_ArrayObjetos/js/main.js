@@ -26,3 +26,33 @@ const {
 } = aluno
 
 console.log(nota)
+console.log(idade)
+console.log(primeiroNome)
+
+console.clear()
+//Array de objetos
+const alunosIOS = [
+    {
+        nomeAluno: "Higor Féquer",
+        idade: 54,
+        nota: 9
+    },
+    {
+        nomeAluno: "Marcos",
+        idade: 12,
+        nota: 8
+    },
+    {
+        nomeAluno: "Thainá Zerbinatti",
+        idade: 35,
+        nota:10
+    }
+]
+console.log(alunosIOS)
+console.log(alunosIOS[0])
+console.log(alunosIOS[0].nota)
+
+console.log(JSON.stringify(alunosIOS))
+
+let jsonzinho = '[{"nomeAluno":"Higor Féquer","idade":54,"nota":9},{"nomeAluno":"Marcos","idade":12,"nota":8},{"nomeAluno":"Thainá Zerbinatti","idade":35,"nota":10}]'
+console.log(JSON.parse(jsonzinho))
