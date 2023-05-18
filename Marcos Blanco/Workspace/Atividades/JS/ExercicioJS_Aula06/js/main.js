@@ -20,5 +20,5 @@ bidimensional[1][2] = "Javascript";
 console.log(bidimensional);
 delete bidimensional[2][2];
 console.log(bidimensional);
-let bidimensional2 = bidimensional[2].push("Pipoca");
+let bidimensiona2 = bidimensional[2].push("Pipoca");
 console.log(bidimensional);
