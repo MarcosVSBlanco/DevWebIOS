@@ -3,7 +3,7 @@ class pessoa {
         this.nome = nome;
         this.dataNascimento = new Date(dataNascimento);
     }
-    idade() {
+    getIdade() {
         const hoje = new Date();
         const anoAtual = hoje.getFullYear()
         const mesAtual = hoje.getMonth()
@@ -22,7 +22,7 @@ class pessoa {
         return idade;
     }
 }
-pessoa.prototype.aniversario = function () {
+pessoa.prototype.getNiver = function () {
     const hoje = new Date();
     const mesAtual = hoje.getMonth();
     const diaAtual = hoje.getDate();
@@ -51,8 +51,8 @@ pessoas[9] = new pessoa('Marry', '1970-06-13')
 
 for (let i = 0; i < pessoas.length; i++) {
     const pessoa = pessoas[i]
-    const idade = pessoa.idade()
-    const fezAniversario = pessoa.aniversario() ? "já" : " ainda não"
+    const idade = pessoa.getIdade()
+    const fezAniversario = pessoa.getNiver() ? "já" : " ainda não"
     console.log(`${pessoa.nome} tem ${idade} anos e ${fezAniversario} fez aniversário`)
 }
 
