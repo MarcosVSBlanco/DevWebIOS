@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Exercicio Aula 14</title>
+</head>
+
+<body>
+    <header>
+        <h1>Inscrição</h1>
+    </header>
+    <section class="container">
+        <form id="my-form">
+            <h1>Adicionar Inscrito</h1>
+            <div class="msg"></div>
+            <div>
+                <label for="item">Item:</label>
+                <select name="item" id="posicao">
+                    <option value="--">---</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                </select>
+            </div>
+            <div>
+                <label for="name">Nome:</label>
+                <input type="text" id="name" required />
+            </div>
+            <div>
+                <label for="date">Data Nascimento:</label>
+                <input type="number" id="date" required />
+            </div>
+            <div>
+                <label for="email">E-mail:</label>
+                <input type="text" id="email" required />
+            </div>
+            <div class="msg_email"></div>
+
+            <input class="btn" type="submit" value="Incluir" />
+            <input class="btnx" type="submit" value="Excluir" />
+    </section>
+<script src="./js/main.js"></script>
+</body>
+
+</html>
