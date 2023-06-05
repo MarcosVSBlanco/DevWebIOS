@@ -18,7 +18,7 @@ function onSubmit(e) {
         msg.innerHTML = 'Por favor, preencha os dados.';
         setTimeout(() => msg.remove(), 3000);
     } else {
-        
+
         const li = document.createElement('li');
         li.appendChild(
             document.createTextNode(
